@@ -4,7 +4,7 @@
  * Datasheet: https://www.mouser.com/ds/2/348/bh1750fvi-e-186247.pdf
  * Tested with GY-302 BH1750 Module
  */
-//% weight=100 color=#000011 icon="\uf185"
+//% weight=100 color=#004411 icon="\uf185"
 
 enum BH1750Address {
     ADDR_PIN_LOW  = 0x23,
