@@ -35,8 +35,10 @@ namespace BH1750 {
         pins.i2cWriteNumber(i2c_addr, 0x01, NumberFormat.UInt8BE)
         // reset
         pins.i2cWriteNumber(i2c_addr, 0x07, NumberFormat.UInt8BE)
+		basic.pause(10)
         // set measurement mode
         pins.i2cWriteNumber(i2c_addr, 0x10, NumberFormat.UInt8BE)
+		basic.pause(200)
     }
 
     /**
@@ -49,6 +51,7 @@ namespace BH1750 {
         pins.i2cWriteNumber(i2c_addr, 0x01, NumberFormat.UInt8BE)
         // set measurement mode
         pins.i2cWriteNumber(i2c_addr, 0x10, NumberFormat.UInt8BE)
+		basic.pause(200)
     }
 
     /**
