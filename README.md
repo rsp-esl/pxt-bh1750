@@ -1,12 +1,11 @@
-# BH1750 Extension for PXT-Microbit
+# BH1750
 
-MakeCode PXT Extension for BH1750 Digital Ambient Light Sensor
+A MakeCode-PXT extension for the BH1750 Digital Ambient Light Sensor.
 
 ## Hardware 
 
 This extension was developed to support the GY-302 BH1750 sensor module.
-Note that the BH1750 will be programmed to operate 
-in continuous measurement mode only (1.0 high resolution).
+Only the continuous high-resolution measurement mode (1.0 lx) is supported.
 
 ## Wiring
 
@@ -29,3 +28,6 @@ PXT/microbit
 Thank to IoT Engineering Education @ KMUTNB
 [https://www.facebook.com/iot.kmutnb/](https://www.facebook.com/iot.kmutnb/)
 
+## Update
+
+2019-Feb-17
