@@ -1,10 +1,6 @@
 # BH1750
 
-![](./icon.png)
-
-A MakeCode-PXT extension for the BH1750 Digital Ambient Light Sensor.
-
-
+A MakeCode-PXT extension for the BH1750 digital mmbient light sensor module such as GY-302.
 
 
 ## Hardware 
