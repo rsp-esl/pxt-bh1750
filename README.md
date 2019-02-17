@@ -2,6 +2,7 @@
 
 A MakeCode-PXT extension for the BH1750 digital mmbient light sensor module such as GY-302.
 
+![](icon.png)
 
 ## Hardware 
 
