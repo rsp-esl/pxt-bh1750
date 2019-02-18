@@ -12,7 +12,7 @@ enum BH1750Address {
 //% color="#2c4e20" weight=100  
 namespace BH1750 {
 
-    let i2c_addr = BH1750Address.ADDR_PIN_LOW
+    let i2c_addr = 0
 
     /**
      * set the I2C address of BH1750, 
@@ -31,6 +31,8 @@ namespace BH1750 {
     //% blockId="BH1750_BEGIN" block="bh1750 begin %addr"
     //% weight=90 blockGap=8
     export function begin( addr : BH1750Address = BH1750Address.ADDR_PIN_LOW ): void {
+		// set address
+		i2c_addr = addr 
         // power on
         pins.i2cWriteNumber(i2c_addr, 0x01, NumberFormat.UInt8BE)
         // reset
