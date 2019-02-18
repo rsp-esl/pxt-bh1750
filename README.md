@@ -24,9 +24,6 @@ MIT
 
 PXT/microbit
 
-```package
-pxt-bh1750=github:rsp-esl/pxt-bh1750
-```
 
 ## Acknowledgement
 
