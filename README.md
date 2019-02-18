@@ -1,5 +1,4 @@
 # BH1750
-
 A MakeCode-PXT extension for the BH1750 digital ambient light sensor module such as GY-302.
 
 ![](icon.png)
@@ -24,6 +23,10 @@ MIT
 ## Supported Targets
 
 PXT/microbit
+
+```package
+pxt-bh1750=github:rsp-esl/pxt-bh1750
+```
 
 ## Acknowledgement
 
